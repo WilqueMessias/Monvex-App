@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Monvex</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f5f7fb;
+            --card: #ffffff;
+            --text: #1f2937;
+            --muted: #6b7280;
+            --accent: #4f46e5;
+            --accent-2: #7c3aed;
+            --border: #e5e7eb;
+            --shadow: 0 24px 60px rgba(15, 23, 42, 0.12);
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.65;
+            color: var(--text);
+            background:
+                radial-gradient(circle at top left, rgba(79, 70, 229, 0.12), transparent 28%),
+                radial-gradient(circle at top right, rgba(124, 58, 237, 0.10), transparent 24%),
+                var(--bg);
+            min-height: 100vh;
+            padding: 32px 20px 48px;
+        }
+        .container {
+            max-width: 920px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.94);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255,255,255,0.7);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: var(--shadow);
+        }
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 14px;
+            border-radius: 999px;
+            background: rgba(79, 70, 229, 0.08);
+            color: var(--accent);
+            font-weight: 700;
+            font-size: 0.92rem;
+            margin-bottom: 14px;
+        }
+        h1 {
+            margin: 0 0 12px;
+            font-size: clamp(2rem, 3vw, 3rem);
+            line-height: 1.15;
+            letter-spacing: -0.03em;
+        }
+        .lead {
+            font-size: 1.05rem;
+            color: var(--muted);
+            max-width: 70ch;
+            margin: 0 0 28px;
+        }
+        .meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 0 0 30px;
+        }
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            padding: 8px 12px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: #fff;
+            color: #374151;
+            font-size: 0.92rem;
+        }
+        h2 {
+            margin: 34px 0 14px;
+            font-size: 1.35rem;
+            letter-spacing: -0.02em;
+            color: #111827;
+        }
+        h3 {
+            margin: 24px 0 10px;
+            font-size: 1.05rem;
+            color: #111827;
+        }
+        p { margin: 0 0 14px; }
+        ul {
+            margin: 0 0 18px;
+            padding-left: 20px;
+        }
+        li { margin: 8px 0; }
+        .highlight {
+            margin: 18px 0;
+            padding: 18px 18px 6px;
+            background: linear-gradient(180deg, rgba(79, 70, 229, 0.08), rgba(124, 58, 237, 0.05));
+            border: 1px solid rgba(79, 70, 229, 0.14);
+            border-radius: 16px;
+        }
+        .footer {
+            margin-top: 36px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 0.95rem;
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover { text-decoration: underline; }
+        .grid {
+            display: grid;
+            gap: 16px;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+        .card {
+            border: 1px solid var(--border);
+            background: #fff;
+            border-radius: 16px;
+            padding: 18px;
+        }
+        .card strong { display: block; margin-bottom: 6px; }
+        code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 6px;
+        }
+        @media (max-width: 640px) {
+            body { padding: 14px; }
+            .container { padding: 24px 18px; border-radius: 16px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="eyebrow">Monvex Privacy Policy</div>
+        <h1>Política de Privacidade</h1>
+        <p class="lead">
+            Esta política explica, de forma direta, quais dados o Monvex utiliza para funcionar,
+            o que permanece no dispositivo e o que é enviado a serviços externos para consulta de câmbio.
+        </p>
+
+        <div class="meta">
+            <span class="chip">Última atualização: julho de 2026</span>
+            <span class="chip">Versão do app: internal-test-1</span>
+            <span class="chip">Plataforma: Android</span>
+        </div>
+
+        <h2>1. Introdução</h2>
+        <p>
+            O Monvex é um conversor de moedas e calculadora preparado para Android e Google Play.
+            Esta página descreve como os dados são tratados durante o uso do aplicativo.
+        </p>
+
+        <h2>2. Informações coletadas</h2>
+        <h3>2.1 Dados não coletados</h3>
+        <p>O Monvex não coleta os seguintes dados pessoais ou sensíveis:</p>
+        <ul>
+            <li>Nome ou dados pessoais</li>
+            <li>E-mail ou telefone</li>
+            <li>Localização exata ou aproximada</li>
+            <li>Fotos, vídeos ou arquivos</li>
+            <li>Contatos ou calendário</li>
+            <li>Histórico de navegação</li>
+            <li>Dados biométricos</li>
+        </ul>
+
+        <h3>2.2 Dados implícitos em requisições de rede</h3>
+        <p>
+            Ao buscar taxas de câmbio em tempo real, o app faz requisições HTTPS para APIs de terceiros.
+            Essas requisições podem incluir endereço IP do dispositivo e User-Agent.
+        </p>
+        <p>
+            Esses dados são transmitidos diretamente para os servidores da API e não são armazenados pelo Monvex.
+        </p>
+
+        <h3>2.3 Dados locais</h3>
+        <p>O app armazena localmente no seu dispositivo:</p>
+        <ul>
+            <li>Histórico de conversões realizadas</li>
+            <li>Preferências de idioma</li>
+            <li>Estado de assinatura, se aplicável</li>
+        </ul>
+        <p>
+            Esses dados permanecem exclusivamente no seu dispositivo e não são enviados para servidores do Monvex.
+        </p>
+
+        <h2>3. Como usamos as informações</h2>
+        <ul>
+            <li>Fornecer funcionalidade de conversor de moedas</li>
+            <li>Exibir taxas de câmbio atualizadas</li>
+            <li>Manter histórico local de conversões</li>
+            <li>Melhorar a compatibilidade do app com seu dispositivo</li>
+        </ul>
+
+        <h2>4. Compartilhamento de dados</h2>
+        <div class="highlight">
+            <strong>Resumo de compartilhamento</strong>
+            <ul>
+                <li>Não vendemos ou compartilhamos dados pessoais.</li>
+                <li>IP e User-Agent podem ser compartilhados apenas com provedores de API de câmbio para funcionamento do app.</li>
+                <li>Não integramos analytics ou bibliotecas de terceiros para rastreamento de dados pessoais.</li>
+            </ul>
+        </div>
+
+        <h2>5. Segurança</h2>
+        <ul>
+            <li>Todas as requisições de API usam criptografia HTTPS/TLS.</li>
+            <li>Dados locais são armazenados de forma segura no seu dispositivo.</li>
+            <li>Não mantemos cópias de dados do usuário em servidores do Monvex.</li>
+        </ul>
+
+        <h2>6. Exclusão de dados</h2>
+        <p><strong>Histórico local:</strong> limpe através de:</p>
+        <ul>
+            <li>Botão de limpar dentro do app</li>
+            <li>Configurações Android → Aplicativos → Monvex → Armazenamento → Limpar cache</li>
+            <li>Desinstalação do app</li>
+        </ul>
+        <p>
+            O provedor da API pode manter logs conforme a própria política. O Monvex não mantém backups dos dados do usuário.
+        </p>
+
+        <h2>7. Direitos do usuário</h2>
+        <ul>
+            <li>Acessar os dados locais a qualquer momento</li>
+            <li>Limpar o histórico dentro do app</li>
+            <li>Desinstalar o app a qualquer momento</li>
+            <li>Não ser rastreado por terceiros pelo Monvex</li>
+        </ul>
+
+        <h2>8. Conformidade legal</h2>
+        <p>Esta política foi redigida para ser compatível com:</p>
+        <ul>
+            <li>GDPR</li>
+            <li>COPPA</li>
+            <li>LGPD</li>
+        </ul>
+
+        <h2>9. Contato</h2>
+        <p>
+            Dúvidas sobre esta política podem ser enviadas para:
+            <a href="mailto:contato@willtech.dev">contato@willtech.dev</a>
+        </p>
+
+        <div class="footer">
+            <p><strong>Monvex</strong> — Conversor de Moedas & Calculadora</p>
+            <p>Para o Google Play, hospede esta página em um domínio público ou em GitHub Pages e use a URL no campo de Política de Privacidade.</p>
+        </div>
+    </main>
+</body>
+</html>
