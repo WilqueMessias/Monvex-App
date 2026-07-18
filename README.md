@@ -1,6 +1,6 @@
 # Monvex
 
-Monvex is a fast currency converter and calculator designed for quick checks, clean interactions and a lightweight mobile experience.
+Monvex is a fast currency converter and calculator designed for quick checks, clean interactions, and a lightweight mobile experience.
 
 ![Status](https://img.shields.io/badge/status-release%20ready-brightgreen)
 ![Platform](https://img.shields.io/badge/platform-Android-blue)
@@ -8,13 +8,13 @@ Monvex is a fast currency converter and calculator designed for quick checks, cl
 
 ## Overview
 
-Monvex focuses on speed and clarity. The app combines live exchange-rate conversion with a simple calculator, making it practical for travel, shopping and everyday financial checks.
+Monvex focuses on speed and clarity. The app combines live exchange-rate conversion with a simple calculator, making it practical for travel, shopping, and everyday financial checks.
 
 ## Key Features
 
 - Live currency conversion
 - Built-in calculator for quick comparisons
-- Lightweight interface with a strong mobile-first layout
+- Lightweight interface with a mobile-first layout
 - Local history for recent conversions
 - Multilingual foundation
 
